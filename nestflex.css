@@ -1,0 +1,53 @@
+div{
+    border: 1px solid black;
+}
+
+.container-1{
+    background-color:lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.container-1>div{
+    background-color:darkgray;
+    margin:10px;
+    padding:10px;
+    font-size: 1rem;
+    width:50px;
+    text-align:center;
+}
+
+.container-2{
+    background-color:lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.container-2>div{
+    background-color:white;
+    padding:10px;
+    font-size:15px;
+}
+
+.container-2-1>div{
+    background-color:darkgray;
+    margin: 10px;
+    padding:5px;
+    padding-right: 50px;
+    font-size:15px;
+}
+
+.container-2-1{
+    flex-grow: 1;
+}
+
+.container-2-2{
+    flex-grow: 100;
+}
+
+
+
+
+
