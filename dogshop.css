@@ -1,0 +1,78 @@
+div{
+    border: 1px solid black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.navbar>div{
+    padding: 0.5em;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.bar>div{
+    padding: 1em;
+    margin:0.5em;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+    justify-content: center;
+}
+
+.container1>div{
+    padding: 8em;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.container-dog{
+    display: flex;
+    flex-direction: row;
+    padding:2em;
+    justify-content:center;
+}
+
+.container-dog>div{
+    padding:10em;
+    text-align: center;
+}
+
+.picture{
+    flex-grow:2;
+    margin-right: 5em;
+    margin-left: 10em;
+}
+
+.text{
+    flex-grow:2;
+    margin-right: 10em;
+}
+
+.footer{
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+}
+
+.footer>div{
+    padding: 2em;
+    flex-grow: 1;
+    text-align: center;
+}
